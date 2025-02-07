@@ -76,6 +76,24 @@
             animation: pulse 1s infinite;
             /* Aplica o efeito de pulso infinito ao passar o mouse */
         }
+
+        /*CSS PARA DESTACAR O PRODUTO*/
+
+        .highlight {
+            animation: highlightEffect 1s ease-in-out alternate;
+        }
+
+        @keyframes highlightEffect {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+            }
+
+            100% {
+                transform: scale(1.1);
+                box-shadow: 0 0 20px rgba(255, 255, 0, 1);
+            }
+        }
     </style>
 
 </head>
@@ -433,8 +451,8 @@ hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
 
     <!--Tela modal de busca-->
     <div class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 hidden" id="search-modal-overlay">
-        <div class="flex justify-center items-center h-full">
-            <div class="bg-[var(--secondary)] text-[var(--white)] p-6 rounded shadow-lg">
+        <div class="flex flex-col justify-center items-center h-full">
+            <div class="bg-[var(--secondary)] text-[var(--white)] p-6 rounded shadow-lg m-3">
                 <form class="flex items-center space-x-4">
                     <input type="text" placeholder="Buscar por um serviço"
                         class="w-full px-6 py-3 border rounded text-[var(--black)] font-medium">
@@ -444,6 +462,8 @@ hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
             </div>
         </div>
     </div>
+
+
 
     <!-- Modal de Nenhum Produto Encontrado -->
     <div class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 hidden" id="no-results-modal">
@@ -457,6 +477,7 @@ hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
             </div>
         </div>
     </div>
+
 
 
     <!-- Footer -->
