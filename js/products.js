@@ -4,164 +4,164 @@ const products = [
         name: "Assento para vaso sanitário",
         service: "Instalação",
         image: "https://http2.mlstatic.com/D_NQ_NP_2X_817625-MLU75151960170_032024-F.webp",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     },
     {
         name: "Suporte de tv e tv até 50",
         service: "Instalação",
         image: "https://a-static.mlcdn.com.br/800x560/suporte-tv-50-58-60-65-70-75-polegadas-articulado-elg/amplinet/3657-1135/4af3dba0854d0d7e6172881f91c4f439.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     },
     {
         name: "Tela de animais linear",
         service: "Instalação",
         image: "https://www.telasparana.com.br/img/produtos/b6d9ae10bb34f1dada8c694b8010d94f.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     },
     {
         name: "Pega ladrão para porta",
         service: "Instalação",
         image: "https://cdn.leroymerlin.com.br/products/trinco_pega_ladrao_aco_niquelado_1_peca_90398546_f849_600x600.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     },
     {
         name: "Persiana",
         service: "Instalação",
         image: "https://persianas2go.com.br/cdn/shop/files/Persiana-Double-Vision-Semi-Blackout-XL-Perola_d032abd2-aec2-43f7-b3a5-f5cd6587b04f.png",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Protetor passaros telhado",
         service: "Instalação",
         image: "https://http2.mlstatic.com/D_NQ_NP_857629-MLB52182776350_102022-O.webp",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Painel para tv",
         service: "Instalação",
         image: "https://images.tcdn.com.br/img/img_prod/631328/painel_suspenso_para_tv_de_ate_55_lets_moveis_hb_5215_1_79039580b40be89d75b188d189a382a0.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Número de imovel",
         service: "Instalação",
         image: "https://acdn.mitiendanube.com/stores/002/823/094/products/placa-numero-de-casa-acrilico-41-acb139332adef42d1216812213129442-1024-1024.webp",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Olho magico para porta",
         service: "Instalação",
         image: "https://blogdocftv.com/wp-content/uploads/2020/02/olho-magico-para-portas.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Gabinete de banheiro",
         service: "Instalação",
         image: "https://images-americanas.b2w.io/produtos/7490453704/imagens/balcao-gabinete-banheiro-milao-com-cuba-100-mdf-60cm/7490453707_1_large.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Espelho",
         service: "Instalação",
         image: "https://m.media-amazon.com/images/I/81ZZzEontiL._AC_SX679_.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Faixa anti derrapante",
         service: "Instalação",
         image: "https://down-br.img.susercontent.com/file/3a5e0169160356e1069c99be9b02d3b5",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Chuveiro eletrico plastico comum",
         service: "Instalação, troca",
         image: "https://amoedo.vtexassets.com/arquivos/ids/164525-1200-1600?v=638209825055330000&width=1200&height=1600&aspect=true",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Chuveiro tipo ducha",
         service: "Instalação, troca",
         image: "https://s2-casaejardim.glbimg.com/9r_tjChWaFFj3diV4ONsEUjoIOI=/0x0:888x666/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_a0b7e59562ef42049f4e191fe476fe7d/internal_photos/bs/2024/R/n/To1jbAT0K3tVHA6sBLeA/chuveiro-com-ducha-lorenzetti-acqua-duo-127v-5500w-preto-fosco-7510144-a.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Chuveiro Turbo",
         service: "Instalação, troca",
         image: "https://images.tcdn.com.br/img/img_prod/763413/chuveiro_eletrico_lorenzetti_duo_shower_turbo_multetemperatura_branco_7500w_220v_5973_1_20200429140556.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Acessórios para cozinha",
         service: "Instalação, troca",
         image: "https://blog.thony.com.br/wp-content/uploads/2015/05/acessorios-para-cozinha.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Varal",
         service: "Instalação",
         image: "https://lojamor.vteximg.com.br/arquivos/ids/159683-1000-1000/006023-Varal-Sanfonado-120-1.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Puxador de porta",
         service: "Instalação",
         image: "https://images.tcdn.com.br/img/img_prod/894333/kit_2_puxadores_de_porta_de_correr_classic_uniao_mundial_10_cm_cromado_587_1_75e16cfef6f13addd7ec67037ed4dbb3.png",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Instalação de ar condicionado",
         service: "Instalação",
         image: "https://www.jefferson.ind.br/uploads/conteudo/conteudo/2017/07/xEWaP/22afb5e14d919910530ec775bdf697f8cd5238b273015b734cpimgpsh-fullsize-distr-D0pHbl_600x450.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Placa de sinalização de ambiente",
         service: "Instalação",
         image: "https://images.tcdn.com.br/img/img_prod/81/placa_de_sinalizacao_ambiente_monitorado_62805_1_1a6f436c5914faffcf438ed1fbe4e037.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Movimentação de móveis",
         service: "Movimentação",
         image: "https://bravatransportesemudancas.com.br/wp-content/uploads/2023/08/empresa-de-icamento.webp",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Suporte para micro-ondas",
         service: "Instalação",
         image: "https://images.tcdn.com.br/img/img_prod/464234/kit_04_suportes_suspensos_para_micro_ondas_forno_60x40_cm_class_l03_amadeirado_lyam_51529_2_d564f07f6dff10f40fc535af2b1a1272.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Metais para banheiro",
         service: "Instalação",
         image: "https://duconmetais.com.br/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/1/_/1_11_1.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
     ,
     {
         name: "Limpeza de ar condicionado de janela",
         service: "Reparo",
         image: "https://refrigeracao.tokpolar.com.br/manutencao-de-ar-condicionado/imagens/limpeza-ar-condicionado-de-janela-valor.jpg",
-        link: "https://google.com"
+        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
 ];
 
