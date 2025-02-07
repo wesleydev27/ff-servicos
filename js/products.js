@@ -142,6 +142,27 @@ const products = [
         image: "https://bravatransportesemudancas.com.br/wp-content/uploads/2023/08/empresa-de-icamento.webp",
         link: "https://google.com"
     }
+    ,
+    {
+        name: "Suporte para micro-ondas",
+        service: "Instalação",
+        image: "https://images.tcdn.com.br/img/img_prod/464234/kit_04_suportes_suspensos_para_micro_ondas_forno_60x40_cm_class_l03_amadeirado_lyam_51529_2_d564f07f6dff10f40fc535af2b1a1272.jpg",
+        link: "https://google.com"
+    }
+    ,
+    {
+        name: "Metais para banheiro",
+        service: "Instalação",
+        image: "https://duconmetais.com.br/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/1/_/1_11_1.jpg",
+        link: "https://google.com"
+    }
+    ,
+    {
+        name: "Limpeza de ar condicionado de janela",
+        service: "Reparo",
+        image: "https://refrigeracao.tokpolar.com.br/manutencao-de-ar-condicionado/imagens/limpeza-ar-condicionado-de-janela-valor.jpg",
+        link: "https://google.com"
+    }
 ];
 
 
