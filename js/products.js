@@ -135,6 +135,13 @@ const products = [
         image: "https://images.tcdn.com.br/img/img_prod/81/placa_de_sinalizacao_ambiente_monitorado_62805_1_1a6f436c5914faffcf438ed1fbe4e037.jpg",
         link: "https://google.com"
     }
+    ,
+    {
+        name: "Movimentação de móveis",
+        service: "Movimentação",
+        image: "https://bravatransportesemudancas.com.br/wp-content/uploads/2023/08/empresa-de-icamento.webp",
+        link: "https://google.com"
+    }
 ];
 
 
