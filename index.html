@@ -78,7 +78,6 @@
         }
 
         /*CSS PARA DESTACAR O PRODUTO*/
-
         .highlight {
             animation: highlightEffect 1s ease-in-out alternate;
         }
@@ -341,7 +340,8 @@ hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
                             <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="15" y1="6"
                                 x2="26" y2="17"></line>
                             <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10"
-                                d="M24,16.1l-5.3,5.3c-0.8,0.8-2.2,0.8-3,0l-5.1-5.1 c-0.8-0.8-0.8-2.2,0-3L15.9,8"></path>
+                                d="M24,16.1l-5.3,5.3c-0.8,0.8-2.2,0.8-3,0l-5.1-5.1 c-0.8-0.8-0.8-2.2,0-3L15.9,8">
+                            </path>
                             <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="13.2"
                                 y1="18.8" x2="5" y2="27"></line>
                             <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="27.7"
@@ -464,8 +464,6 @@ hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
         </div>
     </div>
 
-
-
     <!-- Modal de Nenhum Produto Encontrado -->
     <div class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 hidden" id="no-results-modal">
         <div class="flex justify-center items-center h-full">
@@ -479,6 +477,16 @@ hover:bg-[var(--green-hover)] px-6 py-2 rounded-md transition-all duration-300">
         </div>
     </div>
 
+    <!-- Botão  whatsapp-->
+    <div class="fixed bottom-4 right-4">
+        <a href="https://wa.me/seunumero" target="_blank"
+            class="relative flex items-center justify-center w-14 h-14 bg-green-500 text-white rounded-full shadow-lg transition-transform transform hover:scale-110">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12 0C5.373 0 0 5.373 0 12c0 2.172.577 4.225 1.662 6.045L0 24l6.177-1.648C8.07 23.424 10.022 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.814 0-3.584-.487-5.12-1.412l-.367-.214-3.662.977 1.019-3.566-.24-.38A9.927 9.927 0 0 1 2 12c0-5.522 4.478-10 10-10s10 4.478 10 10-4.478 10-10 10zm4.99-7.347c-.273-.137-1.623-.8-1.875-.89s-.435-.137-.62.137c-.187.273-.713.89-.873 1.074-.16.187-.32.2-.593.067-1.623-.8-2.685-1.427-3.76-3.24-.283-.487.283-.453.807-1.51.09-.187.045-.35-.022-.487-.067-.137-.62-1.493-.847-2.037-.223-.537-.45-.463-.62-.473-.16-.01-.35-.012-.54-.012a1.04 1.04 0 0 0-.74.35c-.253.273-.967.947-.967 2.31 0 1.364.99 2.68 1.13 2.87.14.187 1.946 2.97 4.71 4.166 1.672.722 2.33.78 3.16.656.507-.075 1.623-.662 1.85-1.3.227-.637.227-1.18.16-1.3-.067-.12-.213-.187-.467-.3z" />
+            </svg>
+        </a>
+    </div>
 
 
     <!-- Footer -->
