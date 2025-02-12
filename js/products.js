@@ -221,8 +221,19 @@ const highlightProduct = (productElement) => {
 // Exibe todos os produtos inicialmente
 displayProducts(products);
 
+// Função debounce para otimizar a busca
+const debounce = (func, delay) => {
+    let timeoutId;
+    return (...args) => {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+            func.apply(null, args);
+        }, delay);
+    };
+};
+
 // FILTRO DE BUSCA DE PRODUTOS
-searchInput.addEventListener('input', (e) => {
+const handleSearchInput = (e) => {
     const query = e.target.value.trim().toLowerCase();
 
     if (query.length >= 3) {
@@ -231,23 +242,24 @@ searchInput.addEventListener('input', (e) => {
         );
         displayProducts(filteredProducts, query);
     } else {
-        // Se a busca tiver menos de 3 caracteres, exibe todos os produtos
         displayProducts(products);
     }
-});
+};
+
+searchInput.addEventListener('input', debounce(handleSearchInput, 300));
 
 // Abrir o modal de busca
 const openSearchModal = () => {
     searchModalOverlay.classList.remove('hidden');
-    searchInput.value = ''; // Limpa o campo de busca ao abrir o modal
-    searchInput.focus(); // Foca no input automaticamente
-    displayProducts(products); // Exibe todos os produtos novamente ao abrir o modal
+    searchInput.value = '';
+    searchInput.focus();
+    displayProducts(products);
 };
 
 // Fechar o modal de busca
 const closeSearchModal = () => {
     searchModalOverlay.classList.add('hidden');
-    searchInput.value = ''; // Limpa o campo de busca ao fechar o modal
+    searchInput.value = '';
 };
 
 // Evento para fechar o modal de busca ao clicar fora
@@ -260,14 +272,14 @@ searchModalOverlay.addEventListener('click', (e) => {
 // Função para fechar o modal de "Nenhum produto encontrado"
 const closeNoResultsModal = () => {
     noResultsModal.classList.add('hidden');
-    searchInput.value = ''; // Limpa o campo de busca ao fechar o modal de erro
-    displayProducts(products); // Exibe todos os produtos novamente
+    searchInput.value = '';
+    displayProducts(products);
 };
 
 // Evento de fechamento do modal de "Nenhum produto encontrado"
 closeNoResultsButton.addEventListener('click', closeNoResultsModal);
 
-// Para abrir o modal de busca (por exemplo, em um botão ou outra ação)
+// Para abrir o modal de busca
 const searchButton = document.getElementById('open-search-button');
 if (searchButton) {
     searchButton.addEventListener('click', openSearchModal);
