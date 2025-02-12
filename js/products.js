@@ -123,13 +123,6 @@ const products = [
     }
     ,
     {
-        name: "Instalação de ar condicionado",
-        service: "Instalação",
-        image: "https://www.jefferson.ind.br/uploads/conteudo/conteudo/2017/07/xEWaP/22afb5e14d919910530ec775bdf697f8cd5238b273015b734cpimgpsh-fullsize-distr-D0pHbl_600x450.jpg",
-        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
-    }
-    ,
-    {
         name: "Placa de sinalização de ambiente",
         service: "Instalação",
         image: "https://images.tcdn.com.br/img/img_prod/81/placa_de_sinalizacao_ambiente_monitorado_62805_1_1a6f436c5914faffcf438ed1fbe4e037.jpg",
@@ -156,13 +149,7 @@ const products = [
         image: "https://duconmetais.com.br/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/1/_/1_11_1.jpg",
         link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
     }
-    ,
-    {
-        name: "Limpeza de ar condicionado de janela",
-        service: "Reparo",
-        image: "https://refrigeracao.tokpolar.com.br/manutencao-de-ar-condicionado/imagens/limpeza-ar-condicionado-de-janela-valor.jpg",
-        link: "https://wa.me/5511959925225?text=Ol%C3%A1%20eu%20vim%20do%20seu%20site%20FF%20Servi%C3%A7os%20e%20gostaria%20de%20um%20or%C3%A7amento%20"
-    }
+
 ];
 
 
@@ -182,16 +169,16 @@ const displayProducts = (filteredProducts, query = '') => {
     if (filteredProducts.length > 0) {
         filteredProducts.forEach((product, index) => {
             const card = document.createElement("div");
-            card.className = "relative bg-cover bg-center p-4 shadow rounded text-center w-full flex justify-center items-center flex-col gap-1 before:absolute before:inset-0 before:bg-[var(--primary)] before:opacity-60 before:rounded p-8 transition-transform duration-300 hover:scale-105 cursor-pointer";
+            card.className = "relative bg-cover bg-center p-4 shadow rounded text-center w-full flex justify-center items-center flex-col gap-1 before:absolute before:inset-0 before:bg-[var(--black)] before:opacity-50 before:rounded p-8 transition-transform duration-300 hover:scale-105 cursor-pointer";
             card.style.backgroundImage = `url('${product.image}')`;
             card.setAttribute('data-index', index);
 
             card.innerHTML = `
-                <h3 class="relative text-sm font-semibold bg-[var(--secondary)] text-[var(--white)] p-2 rounded-xl opacity-90">
+                <h3 class="relative text-xl text-[var(--white)] font-semibold p-2">
                     ${product.name}
                 </h3>
-                <p class="relative text-[var(--black)] text-sm font-bold">Serviço: ${product.service}</p>
-                <a href="${product.link}" class="relative flex items-center mx-auto bg-[var(--green-whatsapp)] text-[var(--white)] px-10 py-2 rounded-md transition-all duration-300 font-medium">
+                <p class="relative text-[var(--primary)] text-sm font-bold">Serviço: ${product.service}</p>
+                <a href="${product.link}" class="relative flex items-center mx-auto bg-[var(--green-whatsapp)] text-[var(--white)] px-12 py-2 rounded-md transition-all duration-300 font-medium">
                     Solicite agora
                 </a>
             `;
